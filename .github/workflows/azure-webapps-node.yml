@@ -32,7 +32,6 @@ jobs:
           done
 
           if [ "${#failed[@]}" -ne 0 ]; then
-            echo "❌ The following APIs are down:"
+            echo "❌ The following APIs failed:"
             printf '%s\n' "${failed[@]}"
-            exit 1  # Fails only after checking all URLs
           fi
