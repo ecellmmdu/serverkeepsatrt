@@ -12,6 +12,7 @@ jobs:
       - name: Check Socials API Health
         run: |
           urls=(
+            "https://careerhub-app-1.onrender.com"
             "https://sniplinkapp.onrender.com"
             "https://portfolio-server-latest.onrender.com/health"
             "https://user-auth-imui.onrender.com"
